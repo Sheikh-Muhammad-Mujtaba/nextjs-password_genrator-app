@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Password Generator
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The Password Generator is a web application built with Next.js that allows users to generate secure passwords based on customizable criteria. Users can specify the length of the password and choose whether to include uppercase letters, lowercase letters, numbers, and symbols.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Customizable Password Length:** Users can set the password length between 8 and 32 characters.
+- **Character Type Selection:** Users can select which types of characters to include in the generated password: uppercase letters, lowercase letters, numbers, and symbols.
+- **Copy to Clipboard:** Easily copy the generated password to your clipboard with a single click.
+- **User-Friendly Interface:** A clean and responsive design that works well on both desktop and mobile devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can try the live demo of the Password Generator [here]([YOUR_LIVE_DEMO_LINK](https://nextjs-password-genrator-app.vercel.app/)).
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+To run this project locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Sheikh-Muhammad-Mujtaba/nextjs-password_genrator-app
+   cd your-repo-name
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Open your browser and visit:**
+   ```
+   http://localhost:3000
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Usage
+
+1. Open the application in your web browser.
+2. Specify the desired password length using the input field.
+3. Check the boxes to include uppercase letters, lowercase letters, numbers, and symbols as needed.
+4. Click the "Generate Password" button to create a secure password.
+5. Copy the generated password to your clipboard using the "Copy" button.
+
+## Acknowledgments
+
+- This project was developed as part of a learning journey in web development with Next.js.
+- Special thanks to the [Sir Asharib](https://github.com/AsharibAli) and the creators of Next.js and the various UI components used in this project.
+
