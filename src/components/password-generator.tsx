@@ -23,16 +23,16 @@ export default function GeneratePasswordComponent() {
 
   // Update password length based on user input
   const handleLengthChange = (e: ChangeEvent<HTMLInputElement>): void => {
-    const newLength = Number(e.target.value);
-    if (newLength >= 8 && newLength <= 32) {
-      setLength(newLength);
-    } else {
-      alert("Password length must be between 8 and 32 characters.");
-    }
+    setLength(Number(e.target.value)); // No validation here, just updating state
   };
 
   // Generate the password based on selected criteria
   const generatePassword = (): void => {
+    if (length < 8 || length > 32) {
+      alert("Password length must be between 8 and 32 characters.");
+      return;
+    }
+  
     let characterPool = "";
     if (includeUppercase) characterPool += uppercaseChars;
     if (includeLowercase) characterPool += lowercaseChars;
