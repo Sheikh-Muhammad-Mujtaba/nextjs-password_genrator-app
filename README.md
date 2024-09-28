@@ -13,7 +13,7 @@ The Password Generator is a web application built with Next.js that allows users
 
 ## Live Demo
 
-You can try the live demo of the Password Generator [here](https://nextjs-password-genrator-app.vercel.app/)
+You can try the live demo of the Password Generator [**here**](https://nextjs-password-genrator-app.vercel.app/)
 
 ## Installation
 
